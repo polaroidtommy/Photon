@@ -11,7 +11,7 @@ Team 1's repository for Photon project in Software Devolopment Class
 
 SERVER START:
 
-Step 0: Install required dependencies in virtual machine: ```sudo apt update && sudo apt install python3-pip python3-tk python3-pil libpq-dev && pip3 install --upgrade --force-reinstall pillow psycopg2```
+Step 0: Install required dependencies in virtual machine: ```sudo apt update && sudo apt install -y python3-pip python3-tk python3-pil libpq-dev pipx && sudo apt install python3-pil python3-pil.imagetk && sudo apt install python3-psycopg2```
 
 Step 1: To start input the following in terminal: python3 main.py
 
